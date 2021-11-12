@@ -1,7 +1,7 @@
 # bDynamics
 Brownian dynamics simulations of filaments (we thought modeling actin filaments)
 
-## How to make and run:
+## How to make and run
 
 make
 
