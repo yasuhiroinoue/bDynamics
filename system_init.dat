@@ -1,0 +1,53 @@
+# The line beginning with "#" or "//" is commented out.
+Output_Number 60
+Load 100.0
+Pro_Poly 5e-5
+Actin_Friction 10.0
+# Actin_Friction 1.0
+Wall_Friction 100.0
+Rand_Seed 614
+Rand_Seed_Switch 1
+
+Restart_Switch 0
+Restart_Step 4000
+
+########## Default Settintgs ##########
+# Output_Number 0
+#   "Output_Number" is the name of the output directory number.
+# Load 100
+#   "Load" is the force exerted on the membrane.
+# Pro_Poly 1.0
+#   "Pro_Poly" is a parameter tuning actin polymerization rate.
+# Actin_Friction 1
+#   "Actin_Friction" is the friction coefficient of the single actin particle.
+# Wall_Friction 100
+#   "Wall_Friction" is the friction coefficient of the wall.
+# Rand_Seed 614
+#   "Rand_Seed" is the seed of random generator.
+# Rand_Seed_Switch 1
+#   0=off 1=on
+#   if Rand_Seed_Switch is 1, "Rand_Seed" will be changed as "Rand_Seed + Output_Number" when "Output_Number" is renewed.
+# Start_Step 0
+#   "Start_Step" is the start step.
+# End_Step 104001
+#   "End_Step" is the end step.
+# Restart_Switch 0
+#   0=off 1=on
+#   If Restart_Switch is 1, the restart file is loaded.
+# Restart_Step 4000
+#   The restart file is specified by "Restart_Step". Restart files are outputed such as 4000, 14000, 24000, 34000 steps and so on.
+# NX 2
+# NY 1
+# NZ 1
+# 
+# To run V-ActinBD, type the following command under default parallel settings
+#mpirun -np 2 ./V-ActinBD.out
+#
+# If you can use more than 2 processes, you can specify how to divide the space of the caliculated system as follows:
+# NX 4
+# NY 2
+# NZ 2
+# mpirun -np 16 ./V-ActinBD.out
+# here, for example, the number of processes = 16.
+# 
+########## Default Settintgs ##########
