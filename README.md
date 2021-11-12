@@ -1,5 +1,5 @@
 # bDynamics
-Brownian dynamics simulations of filaments (we modeled actin filaments w/wo branching)
+Brownian dynamics simulations of filaments (we modeled filaments w/wo branching)
 
 ## How to make and run
 
