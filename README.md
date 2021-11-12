@@ -7,4 +7,6 @@ make
 
 mpirun -np 2 ./V-ActinBD.out
 
+For more detail, please see "system_init.dat".
+
 TODO: generate VTK files for Paraview visualization
