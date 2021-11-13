@@ -15,4 +15,4 @@ Please use pvwin, and you can get it at
 http://www.photon.t.u-tokyo.ac.jp/~maruyama/pvwin/pvwin.html
 
 ## Acknowledge
-Thanks to D. Takeji
+Thanks to Deji Takeji
